@@ -21,9 +21,14 @@
 	"require": {
 		"php": ">=7.4"
 	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"autoload": {
 		"psr-4": {
 			"Hybrid\\Breadcrumbs\\": "src/"
 		}
+	},
+	"config": {
+		"sort-packages": true
 	}
 }
